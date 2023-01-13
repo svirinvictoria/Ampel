@@ -18,6 +18,10 @@ const HorizontalAmpel = () => {
         setIsRed(false);
         setIsGreen(false);
         setIsYellow(false);
+      } else if (isGreen) {
+        setIsRed(true);
+        setIsGreen(false);
+        setIsYellow(false);
       } else {
         setIsRed(true);
         setIsGreen(false);
@@ -28,7 +32,7 @@ const HorizontalAmpel = () => {
         setIsYellow(true);
         setIsRed(true);
       } else if (isGreen) {
-        setIsYellow(false);
+        setIsYellow(true);
         setIsRed(false);
         setIsGreen(false);
       }
