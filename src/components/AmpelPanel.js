@@ -1,16 +1,14 @@
 import React from "react";
-import "./AmpelPanel.css";
-// import VerticalAmpel from "./Ampel/VerticalAmpel";
-import Condition from "../components/Condition";
 
+import Condition from "../components/Condition";
+import "./AmpelPanel.css";
 
 
 const AmpelPanel = () => {
   return (
     <div className="panel-body">
-      {/* <p>Ampel Panel</p> */}
-     
-        <Condition type="Vertical" />
+
+        <Condition type="Vertical"  />
      
     </div>
   );

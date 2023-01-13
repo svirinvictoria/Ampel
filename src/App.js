@@ -4,7 +4,7 @@ import AmpelPanel from './components/AmpelPanel';
 import ButtonsPanel from './components/ButtonsPanel';
 import Header from './components/Header';
 import ContextLight from "../src/store/context-light";
-import Condition from './components/Condition';
+// import Condition from './components/Condition';
 
 
 function App() {
