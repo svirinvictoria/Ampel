@@ -4,12 +4,19 @@ import ContextLight from "../store/context-light";
 
 const Button = (props) => {
   const ctx = useContext(ContextLight);
+  const [type, setType] = useState("Vertical");//
 
   let chooseColor = props.chooseColor;
 
   const colorClickHandler = () => {
     ctx.changeLight(chooseColor);
+      if (ctx.type === "Vertical") {
+      setType("Horizontal");
+    } else {
+      setType("Vertical");
+    }
   };
+
 
   const isButton = true;
 

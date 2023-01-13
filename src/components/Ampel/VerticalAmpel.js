@@ -3,11 +3,15 @@ import "./VerticalAmpel.css";
 import ContextLight from "../../store/context-light";
 
 const VerticalAmpel = () => {
+    
+
   const ctx = useContext(ContextLight);
 
   const [isRed, setIsRed] = useState(false);
   const [isYellow, setIsYellow] = useState(false);
   const [isGreen, setIsGreen] = useState(false);
+
+
 
   const changeAmpelColor = (pushedLight) => {
     if (pushedLight === "Rot") {
@@ -44,7 +48,6 @@ const VerticalAmpel = () => {
 
   useEffect(() => {
     changeAmpelColor(ctx.light);
-    // console.log(ctx.light);
   }, [ctx.light]);
 
   const redClass = isRed ? "ampel-button red" : "ampel-button";

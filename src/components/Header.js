@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import HorizontalAmpel from "./Ampel/HorizontalAmpel";
+// import HorizontalAmpel from "./Ampel/HorizontalAmpel";
 import Condition from "./Condition";
 
 function Header() {
@@ -8,9 +8,7 @@ function Header() {
     <div className="main">
       <p className="logo-text"> DIE AMPEL</p>
       <div className="hor-ampel-place">
-        <HorizontalAmpel />
-        <Condition type="A" />
-        <Condition type="B" />
+        <Condition type="Horizontal" />
       </div>
     </div>
   );

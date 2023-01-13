@@ -1,5 +1,8 @@
-const condition = (props) => {
-  return props.type === "A" ? <button>But</button> : <input type="checkbox" />;
+import HorizontalAmpel from "./Ampel/HorizontalAmpel";
+import VerticalAmpel from "./Ampel/VerticalAmpel";
+
+const Condition = (props) => {
+  return props.type === "Horizontal" ? <HorizontalAmpel /> : <VerticalAmpel />;
 };
 
-export default condition;
+export default Condition;

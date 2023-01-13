@@ -1,6 +1,8 @@
 import React from "react";
 import "./AmpelPanel.css";
-import VerticalAmpel from "./Ampel/VerticalAmpel";
+// import VerticalAmpel from "./Ampel/VerticalAmpel";
+import Condition from "../components/Condition";
+
 
 
 const AmpelPanel = () => {
@@ -8,7 +10,7 @@ const AmpelPanel = () => {
     <div className="panel-body">
       {/* <p>Ampel Panel</p> */}
      
-        <VerticalAmpel />
+        <Condition type="Vertical" />
      
     </div>
   );
