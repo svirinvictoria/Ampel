@@ -1,0 +1,23 @@
+.ample-body{
+    background-color: rgba(179, 175, 175, 0.823);
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    top: 13%;
+    right: 5%;
+    border: 0.12rem solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.light {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    border: 0.12rem solid black;
+    background-color: white;
+
+}
+

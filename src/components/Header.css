@@ -1,0 +1,15 @@
+.main {
+    background-color: #686d77;
+    height: 15%;
+    width: 100%;
+    color: whitesmoke;
+    position: relative;
+
+}
+
+.logo-text {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 6%;
+}
+

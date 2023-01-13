@@ -1,0 +1,10 @@
+.panel-body {
+    background-color: rgba(235, 230, 230, 0.819);
+    width: 40%;
+    height: 45rem;
+    
+    border: black solid 0.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

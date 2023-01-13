@@ -1,0 +1,17 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+}
+.App-header {
+  background-color: whitesmoke;
+  display: flex;
+}
+
+.place-elements {
+  margin-top: 3%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
